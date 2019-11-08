@@ -14,3 +14,124 @@
 .rm-navbar-max {
     display: none;
 }
+
+html {
+    background-color: green;
+}
+
+body {
+    background-color: white;
+}
+
+.wrap-all {
+	max-width: 1100px;
+	margin: 0 auto;
+	background-color: lavender;
+}
+
+.article {
+    box-sizing: content-box;
+    min-width: 300px; 
+}
+
+.site-logo {
+    display: none;
+}
+
+.outer-wrap-main {
+    border: 5px outset;
+    justify-content: space-around;
+}
+/* header */
+
+.outer-wrap-header {
+    border: 1px solid black;
+}
+.region-header {
+    width: 100%;
+    justify-content: space-around;
+}
+.region-header-col-1 {
+    box-sizing: border-box;
+    float: left;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.region-header-col-1 a {
+    box-sizing: border-box;
+    float: left;
+    font-size: 30px;
+    text-decoration: none;
+}
+/* navbar */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+
+li {
+  float: left;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+
+li a {
+  display: block;
+  color: blue;
+  padding: 14px 16px;
+  text-decoration: none;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+
+/* Change the link color  on hover */
+li a:hover {
+  background-color: aqua;
+}
+
+.rm-desktop li .rm-submenu-button {
+	display: none;
+}
+
+.my-navbar {
+    box-sizing: border-box;
+	text-align: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    list-style: none;
+    float: center;
+}
+/* //footer */
+
+.region-footer{
+    width: 100%;
+    justify-content: space-around;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+}
+
+.site-footer {
+    width: 100%;
+    margin 0 auto;
+    text-align: center;
+}
+/* sidebar */
+
+.wrap-sidebar {
+	margin-left: 5%;
+    box-sizing: border-box;
+    display: block;
+    max-width: 15%;
+    float: right;
+}
+.row {
+    display: flex;
+}

@@ -1,25 +1,47 @@
 ---
 title: "Min fina titel"
+views:
+    mumin:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/om-mumin
+
+    flash:
+        region: flash
+        template: anax/v2/image/default
+        data:
+            src: "image/green.jpg?width=1100&height=150&crop-to-fit"
+
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline
 ---
-Min me-sida i kursen design
-=========================
+Min me-sida i kursen Design
+=============================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/me.jpg?w=400" class="right" caption="Bild på mig bland bergen i Asturien"]
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
+Jag har tidigare pluggat statsvetenskap vid LNU,
+rest över större delen av världen både på jobb som vindkraftstekniker och båtbyggare, men även en massa backpacking.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
+Jag skrev min första kod på en C64, inte för att jag begrep att det var det jag gjorde men man fick en boll att studsa på skärmen :).
+Knackade lite HTML på 90-talet men sen tog annat vid.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
+Jag är lite smågalen och har gjort rätt mycket olika saker i livet,
+man behöver ha ett gäng näradöden upplevelser för att uppskatta livet :).
+Jag sitter nu i en liten bergsby i norra Spanien tillsammans med min fru,här pluggar jag och distansjobbar som skribent emellanåt.
+Ja texten är ingen höjdare än, skomakarns barn går ofta barfota.</p>
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Pysslar även med lite FOSS projekt i den mån jag kan utan större programeringskunskaper, samt reparerar och moddar telefoner och datorer.
+Jag och frun har även en reseblogg som ni kan kolla in om ni vill [Two cats in a caravan](https://twocatsinacaravan.xyz).
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
-
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
-
-Vi syns och hörs i forum och chatt!
-
-/Mikael
+Höres!
