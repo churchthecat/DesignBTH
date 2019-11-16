@@ -5,6 +5,14 @@
  * to style up the website so it is useable.
  */
 
+/* poor mans normalize*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Hide submenu, leave this to kmom02 */
 .rm-desktop ul {
     display: none;
@@ -23,23 +31,51 @@ body {
     background-color: white;
 }
 
-.wrap-all {
-	max-width: 1100px;
-	margin: 0 auto;
-	background-color: lavender;
-}
-
 .article {
     box-sizing: content-box;
-    min-width: 300px; 
+    min-width: 300px;
 }
 
 .site-logo {
     display: none;
 }
 
+/* container */
+
+.wrap-all {
+	max-width: 1100px;
+	margin: 0 auto;
+	background-color: lavender;
+}
+
+.outer-wrap {
+    width: 100%;
+}
+
+.inner-wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.row::after {
+    overflow: auto;
+    clear: both;
+}
+
+/* main */
+
 .outer-wrap-main {
     border: 5px outset;
+    justify-content: space-around;
+}
+
+.inner-wrap-main {
+    padding: 30px 0;
+    border: 2px outset;
     justify-content: space-around;
 }
 /* header */
@@ -47,24 +83,66 @@ body {
 .outer-wrap-header {
     border: 1px solid black;
 }
+
+.outer-wrap-flash {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.region-flash {
+    width: 100%;
+    float: left;
+}
+
+.inner-wrap-flash {
+    width: 100%;
+}
+
 .region-header {
     width: 100%;
     justify-content: space-around;
 }
 .region-header-col-1 {
-    box-sizing: border-box;
     float: left;
-    font-size: 30px;
+    width: 20%;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.region-header-col-2 {
+    float: left;
+    width: 80%;
+    font-size: 20px;
     text-decoration: none;
 }
 
 .region-header-col-1 a {
     box-sizing: border-box;
     float: left;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
 }
+
 /* navbar */
+
+.my-navbar {
+	text-align: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    list-style-type: none;
+    float: center;
+    padding-top: 10px;
+}
+
+.my-navbar li {
+	text-align: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    list-style-type: none;
+    float: center;
+    display: inline;
+    padding-top: 2px;
+}
 
 ul {
   list-style-type: none;
@@ -98,19 +176,29 @@ li a:hover {
 	display: none;
 }
 
-.my-navbar {
-    box-sizing: border-box;
-	text-align: center;
-    justify-content: space-around;
-    justify-content: space-between;
-    list-style: none;
-    float: center;
-}
+
 /* //footer */
 
-.region-footer{
+.outer-wrap-footer {
+    background-color: #00f;
+    color: white;
+}
+
+.inner-wrap-footer {
+    padding: 30px;
+    background-color: #00f;
+    color: white;
+}
+
+.region-footer {
     width: 100%;
     justify-content: space-around;
+}
+
+.region-footer>.block {
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
 }
 
 .footer-column {
@@ -131,7 +219,4 @@ li a:hover {
     display: block;
     max-width: 15%;
     float: right;
-}
-.row {
-    display: flex;
 }

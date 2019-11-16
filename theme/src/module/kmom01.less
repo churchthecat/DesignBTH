@@ -1,0 +1,217 @@
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+
+
+
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+
+}
+
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+    
+}
+
+html {
+    background-color: green;
+}
+
+body {
+    background-color: white;
+}
+
+.article {
+    box-sizing: content-box;
+    min-width: 300px;
+}
+
+.site-logo {
+    display: none;
+}
+
+/* container */
+
+.wrap-all {
+	max-width: 1100px;
+	margin: 0 auto;
+	background-color: lavender;
+}
+
+.outer-wrap {
+    width: 100%;
+}
+
+.inner-wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.row::after {
+    overflow: auto;
+    clear: both;
+}
+
+/* main */
+
+.outer-wrap-main {
+    border: 5px outset;
+    justify-content: space-around;
+}
+
+.inner-wrap-main {
+    padding: 30px 0;
+    border: 2px outset;
+    justify-content: space-around;
+}
+/* header */
+
+.outer-wrap-header {
+    border: 1px solid black;
+}
+
+.outer-wrap-flash {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.region-flash {
+    width: 100%;
+    float: left;
+}
+
+.inner-wrap-flash {
+    width: 100%;
+}
+
+.region-header {
+    width: 100%;
+    justify-content: space-around;
+}
+.region-header-col-1 {
+    float: left;
+    width: 20%;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.region-header-col-2 {
+    float: left;
+    width: 80%;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.region-header-col-1 a {
+    box-sizing: border-box;
+    float: left;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/* navbar */
+
+.my-navbar {
+	text-align: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    list-style-type: none;
+    float: center;
+    padding-top: 10px;
+}
+
+.my-navbar li {
+	text-align: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    list-style-type: none;
+    float: center;
+    display: inline;
+    padding-top: 2px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+
+li {
+  float: left;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+
+li a {
+  display: block;
+  color: blue;
+  padding: 14px 16px;
+  text-decoration: none;
+  justify-content: space-around;
+  justify-content: space-between;
+}
+
+/* Change the link color  on hover */
+li a:hover {
+  background-color: aqua;
+}
+
+.rm-desktop li .rm-submenu-button {
+	display: none;
+}
+
+
+/* //footer */
+
+.outer-wrap-footer {
+    background-color: #00f;
+    color: white;
+}
+
+.inner-wrap-footer {
+    padding: 30px;
+    background-color: #00f;
+    color: white;
+}
+
+.region-footer {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.region-footer>.block {
+    padding-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer-column {
+    width: 33%;
+    float: left;
+}
+
+.site-footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* sidebar */
+
+.wrap-sidebar {
+	margin-left: 5%;
+    box-sizing: border-box;
+    display: block;
+    max-width: 15%;
+    float: right;
+}

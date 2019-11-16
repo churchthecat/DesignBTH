@@ -7,4 +7,8 @@ V1.0.0 (2019-10-07)
 
 V1.0.1 (2019-10-08)
 
-* basic functionality done, kmom01
+* Basic functionality done, kmom01
+
+V2.0.0 (2019-11-16)
+
+* A bit more styling. kmom02 done.
