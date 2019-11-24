@@ -1,0 +1,347 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+.row {
+    #desinax-vgrid.row();
+
+	//background-color: #0f0;
+    margin-bottom: 12px;
+}
+
+
+
+// .inner-wrap-header,
+// .inner-wrap-footer {
+//     #desinax-vgrid.grid(100%);
+// }
+
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+
+}
+
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+
+}
+
+/* container */
+
+.wrap-all {
+	//max-width: 100%;
+	//margin: 0 auto;
+	background-color: lavender;
+	#desinax-vgrid.column(@columns);
+}
+
+.outer-wrap {
+    //width: 100%;
+	#desinax-vgrid.column(@columns);
+	background-color: lavender;
+}
+
+
+.inner-wrap {
+    //width: 80%;
+    //margin: 0 auto;
+    //max-width: 1100px;
+	#desinax-vgrid.grid(1100px);
+}
+
+.vgrid .inner-wrap {
+    @gridImage: "../img/grid_24x30x10-nomargin.png";
+    //@gridImage: "../../img/grid_12x60x20-nomargin.png";
+    #desinax-vgrid.showGrid(@gridImage, 1100px);
+
+    &.inner-wrap-header	 {
+        #desinax-vgrid.showGrid(@gridImage);
+    }
+}
+
+.row {
+    //display: flex;
+}
+
+.row::after {
+    //overflow: auto;
+    //clear: both;
+}
+
+.region-breadcrumb {
+	#desinax-vgrid.column(@columns);
+}
+
+.region-flash {
+	#desinax-vgrid.column(@columns);
+}
+
+/* sidebars */
+
+.wrap-sidebar {
+	//margin-left: 5%;
+    //box-sizing: border-box;
+    //display: block;
+    //max-width: 30%;
+    //float: right;
+}
+
+.region-sidebar-right,
+.region-sidebar-left {
+	#desinax-vgrid.column(@columns * 1 / 4);
+}
+
+.region-sidebar-right {
+	#desinax-vgrid.push(1);
+}
+.region-sidebar-left {
+	#desinax-vgrid.column(@columns * 1 / 4);
+}
+.region-sidebar-right.has-sidebar-left,
+.region-sidebar-left.has-sidebar-right {
+	#desinax-vgrid.column(@columns * 1 / 4 - 1);
+}
+
+/* main */
+
+
+.region-main {
+	#desinax-vgrid.column(@columns * 3 / 4);
+    #desinax-vgrid.push(2);
+
+    &.has-sidebar {
+        #desinax-vgrid.push(0);
+    }
+    &.has-sidebar-left {
+        #desinax-vgrid.column(@columns * 3 / 4 - 1);
+    }
+    &.has-sidebar-right {
+        #desinax-vgrid.column(@columns * 3 / 4 - 1);
+    }
+    &.has-sidebar-left.has-sidebar-right {
+        #desinax-vgrid.column(@columns - 10);
+    }
+}
+
+
+/* //responsive 1,2,3 */
+@media screen and (max-width: 1000px) {
+    .region-main {
+    	#desinax-vgrid.column(@columns);
+        //#desinax-vgrid.push(0);
+
+        &.has-sidebar-left.has-sidebar-right {
+            #desinax-vgrid.column(@columns);
+        }
+    }
+
+
+    .region-sidebar-right.has-sidebar-left,
+    .region-sidebar-left.has-sidebar-right {
+    	#desinax-vgrid.column(@columns);
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .region-main.has-sidebar-right {
+        #desinax-vgrid.column(@columns);
+    }
+
+    .region-sidebar-right {
+        #desinax-vgrid.column(@columns);
+    	#desinax-vgrid.push(0);
+    }
+    .region-sidebar-left {
+        #desinax-vgrid.column(@columns);
+        // #desinax-vgrid.push(0);
+    }
+}
+
+.outer-wrap-main {
+    //border: 5px outset;
+    //justify-content: space-around;
+}
+
+.inner-wrap-main {
+    //padding: 30px 0;
+    //border: 2px outset;
+    //justify-content: space-around;
+
+}
+
+.article {
+    //box-sizing: content-box;
+    //width: 100%;
+	//align-content: center;
+	#desinax-vgrid.column(@columns);
+}
+
+.figure {
+	//box-sizing: content-box;
+	//display: inline;
+	#desinax-vgrid.column(@columns);
+
+}
+
+.site-logo {
+    display: none;
+}
+
+/* header */
+
+.outer-wrap-header {
+    // border: 1px solid black;
+    background-color: #c4a2a2;
+    // #design-mixin.clearfix();
+	#desinax-vgrid.column(@columns);
+}
+
+.inner-wrap-header {
+    //max-width: 100;
+	#desinax-vgrid.grid(100%);
+}
+
+.outer-wrap-flash {
+    // border: 1px solid black;
+    //width: 100%;
+	// #desinax-vgrid.column(100%);
+}
+
+.region-flash {
+    //width: 100%;
+    //float: left;
+	#desinax-vgrid.column(100%);
+}
+
+.inner-wrap-flash {
+    //width: 100%;
+	// #desinax-vgrid.column(100%);
+}
+
+.region-header {
+    //width: 100%;
+    //justify-content: space-around;
+}
+.region-header-col-1,
+.region-header-col-3 {
+	#desinax-vgrid.column(5);
+    //float: left;
+    //width: 20%;
+    // font-size: 20px;
+    text-decoration: none;
+}
+
+.region-header-col-2 {
+	#desinax-vgrid.column(14);
+    //float: left;
+    //width: 80%;
+    // font-size: 20px;
+    text-decoration: none;
+}
+
+
+.region-header-col-1 a,
+.region-header-col-2 a
+.region-header-col-3 a {
+    //box-sizing: border-box;
+    //float: left;
+    //font-size: 20px;
+    text-decoration: none;
+}
+
+/* navbar */
+
+.my-navbar {
+	//text-align: center;
+    //justify-content: space-around;
+    //justify-content: space-between;
+    list-style-type: none;
+    //float: center;
+    //padding-top: 10px;
+}
+
+.my-navbar li {
+	//text-align: center;
+    //justify-content: space-around;
+    //justify-content: space-between;
+    list-style-type: none;
+    //float: center;
+    //display: inline;
+    //padding-top: 2px;
+}
+
+ul {
+  list-style-type: none;
+  //margin: 0;
+  //padding: 0;
+  //justify-content: space-around;
+  //justify-content: space-between;
+}
+
+li {
+  //float: left;
+  //justify-content: space-around;
+  //justify-content: space-between;
+}
+
+li a {
+  //display: block;
+  color: blue;
+  //padding: 14px 16px;
+  text-decoration: none;
+  //justify-content: space-around;
+  //justify-content: space-between;
+}
+
+/* Change the link color  on hover */
+li a:hover {
+  background-color: aqua;
+}
+
+
+
+
+/* //footer */
+
+.outer-wrap-footer {
+    background-color: #c4a2a2;
+    color: white;
+}
+
+.inner-wrap-footer {
+    //padding: 30px;
+    background-color: #c4a2a2;
+    color: white;
+}
+
+.region-footer {
+    //width: 100%;
+    //justify-content: space-around;
+	#desinax-vgrid.column(@columns);
+}
+
+.region-footer>.block {
+    //padding-top: 30px;
+    //width: 100%;
+    //text-align: center;
+}
+
+.footer-column {
+	#desinax-vgrid.column(@columns / 3);
+    //width: 33%;
+    //float: left;
+}
+
+.site-footer {
+    //width: 100%;
+    //margin: 0 auto;
+    //text-align: center;
+	#desinax-vgrid.column(@columns);
+}
