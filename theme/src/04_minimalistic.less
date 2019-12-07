@@ -1,7 +1,7 @@
 /*!
- * Stylesheet for design kmom02.
+ * Stylesheet for design kmom04 minimalistic.
  *
- * This stylesheet is for the design course and kmom02 where we use LESS.
+ * This stylesheet is for the design course and kmom03 where we use LESS. grids
  */
 @import "layout/default.less";
 /* import mixins */
@@ -23,6 +23,24 @@
 @import "@fortawesome/fontawesome-free/less/solid.less";
 @import "@fortawesome/fontawesome-free/less/brands.less";
 
+
+/**
+Variables
+*/
+@colorBody: #333;
+@bgColorBody: #fff;
+@bgColorHtml: #424242;
+@accentBgColor: #fff;
+
+@fontFamilyBody: monospace;
+@fontFamilyHeader: monospace;
+
+@lineHeight: 1.4;
+@mainFontSize: 1rem;
+@mainFontWeight: 400;
+@headerFontWeight: 400;
+
+// @import "module/minimalistic.less";
 /**
  * A responsive menu.
  */
@@ -35,21 +53,44 @@
   */
  // @import "module/kmom01.less";
 
+ /** horizontal
+  * Import the typographic grid.
+  */
+ @import "@desinax/typographic-grid/less/typography-font-families.less";
+ @import "/@desinax/typographic-grid/less/typography-defaults.less";
+
+
  /**
   * Base style to affect HTML elements on a general scale.
   */
- @import "base/base.less";
+ // @import "base/base.less";
+  // @import "base/base_kmom04.less";
+
+/* vertical grid layout */
+
+/**
+ * Import the vertical grid.
+ */
+@import "@desinax/vertical-grid/less/grid.less";
+@import "layout/vgrid.less";
+// // Default grid, change to fit your requirements.
+// @columnWidth:   30;
+// @gutterWidth:   10;
+// @columns:       24;
+// @gridType:      "float"; // "flex"
+
+
 
  /**
   * Layout style for general structure of header, navbar, main, footer
   * and other regions of the page including route specific styles.
   */
- @import "layout/layout.less";
+ //@import "layout/layout.less";
  @import "layout/responsive.less";
  @import "layout/regions.less";     // To add style for ?regions
 
 
-
+@import "module/minimalistic.less";
 
  /**
   * My own settings, not currently in their own module.

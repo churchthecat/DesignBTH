@@ -5487,13 +5487,6 @@ hr::after {
     margin-left: 0.52083333%;
     margin-right: 0.52083333%;
   }
-  .region-sidebar-left {
-    display: inline;
-    float: left;
-    width: 98.95833333%;
-    margin-left: 0.52083333%;
-    margin-right: 0.52083333%;
-  }
   .region-sidebar-right.has-sidebar-left,
   .region-sidebar-left.has-sidebar-right {
     display: inline;
@@ -5517,6 +5510,13 @@ hr::after {
     width: 98.95833333%;
     margin-right: 0.52083333%;
     margin-left: 0.52083333%;
+  }
+  .region-sidebar-left {
+    display: inline;
+    float: left;
+    width: 98.95833333%;
+    margin-left: 0.52083333%;
+    margin-right: 0.52083333%;
   }
 }
 .article {
