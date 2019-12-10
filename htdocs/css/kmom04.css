@@ -1,8 +1,12 @@
 /*!
  * Stylesheet for design kmom04.
  *
- * This stylesheet is for the design course and kmom03 where we use LESS. grids
+ * This stylesheet is for the design course and kmom04 where we use LESS. grids
  */
+/**
+default variabler
+
+*/
 /* import mixins */
 /**
  * A small clearfix:
@@ -5014,7 +5018,7 @@ body {
   padding: 0;
   color: #333;
   background-color: #fff;
-  font: 16px/1.375 monospace;
+  font: 16px/1.375 "sans-serif";
 }
 img {
   max-width: 100%;
@@ -5702,3 +5706,6 @@ li a:hover {
 /**
   * My own settings, not currently in their own module.
   */
+Activate the grid base font body {
+  font: 16px/1.375 "sans-serif";
+}

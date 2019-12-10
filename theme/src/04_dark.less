@@ -1,10 +1,9 @@
 /*!
- * Stylesheet for design kmom04.
+ * Stylesheet for design kmom04 minimalistic.
  *
  * This stylesheet is for the design course and kmom04 where we use LESS. grids
  */
 @import "layout/default.less";
-
 /* import mixins */
  @import "mixin/clearfix.less";
 
@@ -26,8 +25,8 @@
 
 
 /**
-Variables
-*/
+// Variables
+// */
 // @colorBody: #333;
 // @bgColorBody: #fff;
 // @bgColorHtml: #424242;
@@ -40,6 +39,8 @@ Variables
 // @mainFontSize: 1rem;
 // @mainFontWeight: 400;
 // @headerFontWeight: 400;
+
+// @import "module/minimalistic.less";
 /**
  * A responsive menu.
  */
@@ -62,8 +63,7 @@ Variables
  /**
   * Base style to affect HTML elements on a general scale.
   */
- // @import "base/base.less";
-  @import "base/base_kmom03.less";
+
 
 /* vertical grid layout */
 
@@ -71,7 +71,7 @@ Variables
  * Import the vertical grid.
  */
 @import "@desinax/vertical-grid/less/grid.less";
-@import "layout/vgrid.less";
+// @import "layout/vgrid.less";
 // // Default grid, change to fit your requirements.
 // @columnWidth:   30;
 // @gutterWidth:   10;
@@ -88,11 +88,11 @@ Variables
  @import "layout/responsive.less";
  @import "layout/regions.less";     // To add style for ?regions
 
+ // @import "base/base.less";
+@import "base/base_kmom04.less";
+
+@import "module/dark.less";
 
  /**
   * My own settings, not currently in their own module.
   */
-Activate the grid base font
-body {
-    #desinax-hgrid.font(@fontSizeBody);
-}

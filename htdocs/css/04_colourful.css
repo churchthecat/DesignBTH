@@ -4734,6 +4734,9 @@ template {
   font-family: 'Font Awesome 5 Brands';
 }
 /**
+Variables
+*/
+/**
  * A responsive menu.
  */
 /**
@@ -5037,9 +5040,6 @@ a.rm-button.rm-clicked .rm-button-face-2 {
      */
 }
 /**
-  * Base style to affect HTML elements on a general scale.
-  */
-/**
   * Layout style for general structure of header, navbar, main, footer
   * and other regions of the page including route specific styles.
   */
@@ -5115,16 +5115,16 @@ a.rm-button.rm-clicked .rm-button-face-2 {
 html {
   overflow-y: scroll;
   background-color: #CCF4FF;
-  background-image: none;
+  background-image: linear-gradient(to right, #FF2200, #E8BE0E);
 }
 body {
   margin: 0;
   padding: 0;
-  color: #fff;
-  background-color: #80E3FF;
-  font: 100.01%/1 monospace;
-  font: 16px/1.375 monospace;
-  background-image: none;
+  color: #1CFF3E;
+  background-color: #1CFF3E;
+  font: 100.01%/1 'Bree Serif', serif;
+  font: 16px/1.375 'Bree Serif', serif;
+  background-image: linear-gradient(to right, #FF2200, #E8BE0E);
 }
 img {
   max-width: 100%;
@@ -5438,24 +5438,24 @@ hr::after {
 /* Hide submenu, leave this to kmom02 */
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
-  background-color: #377485;
+  background-color: linear-gradient(to right, #FF2200, #E8BE0E);
 }
 #rm-menu {
-  background-color: #377485;
-  background-image: none;
+  background-color: linear-gradient(to right, #FF2200, #E8BE0E);
+  background-image: linear-gradient(to right, #FF2200, #E8BE0E);
 }
 rm-default.rm-mobile.rm-clicked {
-  background-color: #377485;
+  background-color: linear-gradient(to right, #FF2200, #E8BE0E);
 }
 /* container */
 .wrap-all {
-  background-color: #80E3FF;
+  background-color: #1CFF3E;
   display: inline;
   float: left;
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  background-image: none;
+  background-image: linear-gradient(to right, #FF2200, #E8BE0E);
 }
 .outer-wrap {
   display: inline;
@@ -5463,8 +5463,8 @@ rm-default.rm-mobile.rm-clicked {
   width: 98.95833333%;
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
-  background-color: #80E3FF;
-  background-image: none;
+  background-color: #1CFF3E;
+  background-image: linear-gradient(to right, #FF2200, #E8BE0E);
 }
 .inner-wrap {
   color: #000000;
@@ -5631,7 +5631,7 @@ rm-default.rm-mobile.rm-clicked {
 }
 /* header */
 .outer-wrap-header {
-  background-color: #377485;
+  background-color: linear-gradient(to right, #FF2200, #E8BE0E);
   display: inline;
   float: left;
   width: 98.95833333%;
@@ -5642,7 +5642,7 @@ rm-default.rm-mobile.rm-clicked {
   margin-right: auto;
   margin-left: auto;
   max-width: 100%;
-  font-family: monospace;
+  font-family: fantasy;
 }
 .region-flash {
   display: inline;
@@ -5686,30 +5686,30 @@ rm-default.rm-mobile.rm-clicked {
   list-style-type: none;
 }
 .my-navbar li:hover {
-  background-color: #80E3FF;
+  background-color: #1CFF3E;
 }
 ul {
   list-style-type: none;
 }
 li a {
-  border-bottom: 1px solid #377485;
-  color: #377485;
+  border-bottom: 1px solid #1CFF3E;
+  color: #1CFF3E;
   text-decoration: none;
 }
 /* Change the link color  on hover */
 li a:hover {
-  background-color: #80E3FF;
+  background-color: #1CFF3E;
 }
 /* //footer */
 .outer-wrap-footer {
-  background-color: #377485;
-  color: #fff;
-  background-image: none;
+  background-color: linear-gradient(to right, #FF2200, #E8BE0E);
+  color: #1CFF3E;
+  background-image: linear-gradient(to right, #FF2200, #E8BE0E);
 }
 .inner-wrap-footer {
-  background-color: #377485;
-  color: #fff;
-  background-image: none;
+  background-color: linear-gradient(to right, #FF2200, #E8BE0E);
+  color: #1CFF3E;
+  background-image: linear-gradient(to right, #FF2200, #E8BE0E);
 }
 .region-footer {
   display: inline;
@@ -5733,22 +5733,27 @@ li a:hover {
   margin-right: 0.52083333%;
 }
 /*!
- * Stylesheet for design kmom04 minimalistic.
+ * Stylesheet for design kmom04 colorful.
  *
  * This stylesheet is for the design course and kmom04. Fill it with style
  * to style up the website so it is useable.
-
- monochromatic style from https://color.adobe.com/create/
  */
 /**
   * Variables
   */
+@font-face {
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Bree Serif Regular'), local('BreeSerif-Regular'), url(https://fonts.gstatic.com/s/breeserif/v9/4UaHrEJCrhhnVA3DgluA96rp4g.ttf) format('truetype');
+}
 h1,
 h2,
 h3,
 h4,
 p {
-  font-family: monospace;
+  font-family: 'Bree Serif', serif;
   font-weight: 200;
 }
 /**

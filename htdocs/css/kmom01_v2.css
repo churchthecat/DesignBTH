@@ -9,6 +9,10 @@
  * Internal self contained modules, save in directory module/.
  */
 /**
+default variabler
+
+*/
+/**
  * Base style to affect HTML elements on a general scale.
  */
 /**
@@ -23,7 +27,7 @@ body {
   padding: 0;
   color: #333;
   background-color: #fff;
-  font: 100.01%/1 serif;
+  font: 100.01%/1 monospace;
 }
 /**
  * Layout style for general structure of header, navbar, main, footer
@@ -40,7 +44,6 @@ body {
  * General layout
  */
 .inner-wrap {
-  max-width: 1100px;
   margin: 0 auto;
 }
 /**

@@ -3,6 +3,10 @@
  *
  * This stylesheet is for the design course and kmom02 where we use LESS.
  */
+/**
+default variabler
+
+*/
 /* import mixins */
 /**
  * A small clearfix:
@@ -316,6 +320,9 @@ template {
 [hidden] {
   display: none;
 }
+/**
+Variables
+*/
 /**
  * Font Awesome.
  */
@@ -4975,7 +4982,7 @@ body {
   padding: 0;
   color: #333;
   background-color: #fff;
-  font: 100.01%/1 serif;
+  font: 100.01%/1 monospace;
 }
 img {
   max-width: 100%;
@@ -5005,7 +5012,6 @@ img {
 .inner-wrap {
   width: 80%;
   margin: 0 auto;
-  max-width: 1100px;
 }
 .row {
   display: flex;
@@ -5053,7 +5059,7 @@ img {
   clear: both;
 }
 .inner-wrap-header {
-  max-width: 100;
+  max-width: 100%;
 }
 .outer-wrap-flash {
   border: 1px solid black;
