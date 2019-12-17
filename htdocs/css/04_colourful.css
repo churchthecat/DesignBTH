@@ -5114,8 +5114,15 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
+  overflow-x: hidden;
   background-color: #CCF4FF;
   background-image: linear-gradient(to right, #FF2200, #E8BE0E);
+}
+img,
+embed,
+object,
+video {
+  max-width: 100%;
 }
 body {
   margin: 0;
@@ -5125,9 +5132,6 @@ body {
   font: 100.01%/1 'Bree Serif', serif;
   font: 16px/1.375 'Bree Serif', serif;
   background-image: linear-gradient(to right, #FF2200, #E8BE0E);
-}
-img {
-  max-width: 100%;
 }
 h1,
 h2,

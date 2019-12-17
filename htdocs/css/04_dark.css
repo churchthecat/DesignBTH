@@ -5114,8 +5114,15 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  */
 html {
   overflow-y: scroll;
+  overflow-x: hidden;
   background-color: #1C0013;
   background-image: none;
+}
+img,
+embed,
+object,
+video {
+  max-width: 100%;
 }
 body {
   margin: 0;
@@ -5125,9 +5132,6 @@ body {
   font: 100.01%/1 'Gupter', Gupter;
   font: 16px/1.375 'Gupter', Gupter;
   background-image: none;
-}
-img {
-  max-width: 100%;
 }
 h1,
 h2,
