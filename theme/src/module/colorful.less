@@ -5,6 +5,7 @@
  * to style up the website so it is useable.
  */
 
+
  /**
   * Variables
   */
@@ -36,4 +37,32 @@ p
  {
     font-family: @fontFamilyBody;
     font-weight: 200;
+}
+
+@import "@desinax/figure/less/asciinema.less";
+@import "@desinax/figure/less/codepen.less";
+@import "@desinax/figure/less/figure.less";
+@import "@desinax/figure/less/figure";
+
+// Enable style from the module and optinally add customized layout
+figure.figure {
+    #desinax-figure.figure();
+}
+
+figure.asciinema {
+    &:extend(figure.figure);
+    #desinax-figure.asciinema();
+}
+
+figure.codepen,
+figure.figure-codepen {
+    &:extend(figure.figure);
+    #desinax-figure.codepen();
+}
+// center image inside container tillagd själv
+.figureC img {
+  margin: 0 auto;
+  figcaption {
+      text-align: center;
+  }
 }

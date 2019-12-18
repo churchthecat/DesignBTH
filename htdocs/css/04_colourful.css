@@ -5130,7 +5130,7 @@ body {
   color: #1CFF3E;
   background-color: #1CFF3E;
   font: 100.01%/1 'Bree Serif', serif;
-  font: 16px/1.375 'Bree Serif', serif;
+  font: 16px/1.5 'Bree Serif', serif;
   background-image: linear-gradient(to right, #FF2200, #E8BE0E);
 }
 h1,
@@ -5140,8 +5140,8 @@ h4,
 h5,
 h6 {
   font-family: "serif";
-  margin-top: 22px;
-  margin-bottom: 22px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 h1 img,
 h2 img,
@@ -5153,10 +5153,10 @@ h6 img {
 }
 h1 {
   font-size: 2.375em;
-  line-height: 1.15789474;
+  line-height: 1.26315789;
   font-weight: normal;
   border-bottom: 1px solid #666;
-  margin-bottom: 21px;
+  margin-bottom: 23px;
 }
 h1 ~ h1,
 h1 ~ h2,
@@ -5164,58 +5164,58 @@ h1 ~ h3,
 h1 ~ h4,
 h1 ~ h5,
 h1 ~ h6 {
-  margin-top: 44px;
+  margin-top: 48px;
 }
 h1 + h2 {
-  margin-top: 22px;
+  margin-top: 24px;
 }
 h2 {
   font-size: 1.875em;
-  line-height: 1.46666667;
+  line-height: 1.6;
   font-weight: normal;
-  margin-bottom: 21px;
+  margin-bottom: 23px;
   border-bottom: 1px solid #CCC;
 }
 h2 + h3 {
-  margin-top: 22px;
+  margin-top: 24px;
 }
 h3 {
   font-size: 1.75em;
-  line-height: 1.57142857;
+  line-height: 1.71428571;
   font-weight: normal;
-  margin-bottom: 21px;
+  margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
 h3 + h4 {
-  margin-top: 22px;
+  margin-top: 24px;
 }
 h4 {
   font-size: 1.5em;
-  line-height: 1.83333333;
+  line-height: 1;
   font-weight: normal;
-  margin-bottom: 21px;
+  margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
 h4 + h5 {
-  margin-top: 22px;
+  margin-top: 24px;
 }
 h5 {
   font-size: 1.25em;
-  line-height: 1.1;
-  margin-bottom: 21px;
+  line-height: 1.2;
+  margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
 h5 + h6 {
-  margin-top: 22px;
+  margin-top: 24px;
 }
 h6 {
   font-size: 1.25em;
-  line-height: 1.1;
-  margin-bottom: 21px;
+  line-height: 1.2;
+  margin-bottom: 23px;
   border-bottom: 1px solid #EEE;
 }
 p {
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 small,
 .small,
@@ -5256,7 +5256,7 @@ blockquote {
   border-left: 4px solid #eee;
   padding-left: 1em;
   margin-left: 0;
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 pre,
 code,
@@ -5282,7 +5282,7 @@ pre code {
   white-space: pre;
 }
 pre {
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 pre code {
   display: block;
@@ -5292,21 +5292,21 @@ div.code,
 pre code {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-  margin-bottom: 21px;
-  padding-top: 11px;
-  padding-bottom: 11px;
+  margin-bottom: 23px;
+  padding-top: 12px;
+  padding-bottom: 12px;
   padding-left: 0.5em;
   background-color: #eee;
 }
 ul,
 ol {
-  margin-bottom: 22px;
+  margin-bottom: 24px;
   padding-left: 1.5em;
 }
 ul p,
 ol p {
-  margin-top: 11px;
-  margin-bottom: 11px;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 ul ul,
 ol ul,
@@ -5321,7 +5321,7 @@ ol {
   list-style-type: decimal;
 }
 dl {
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 dl.horizontal dt {
   clear: left;
@@ -5339,7 +5339,7 @@ article table,
 .table,
 .table1,
 .table2 {
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 table.full-width,
 article .table,
@@ -5360,7 +5360,7 @@ article table caption,
 .table caption,
 .table2 caption {
   font-size: 0.875em;
-  line-height: 1.57142857;
+  line-height: 1.71428571;
   text-align: left;
   font-style: italic;
 }
@@ -5382,7 +5382,7 @@ article table th,
 article table td,
 .table td,
 .table2 td {
-  padding: 5.5px;
+  padding: 6px;
 }
 article table tr,
 .table tr,
@@ -5406,8 +5406,8 @@ hr {
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-  margin-top: 32px;
-  margin-bottom: 33px;
+  margin-top: 35px;
+  margin-bottom: 36px;
 }
 hr::after {
   content: "§";
@@ -5418,7 +5418,7 @@ hr::after {
   background-color: #fff;
 }
 .hgrid .inner-wrap {
-  background-image: url("../img/magic-number-22px.png");
+  background-image: url("../img/magic-number-24px.png");
 }
 /**
  * Layout style for general structure of header, navbar, main, footer
@@ -5759,6 +5759,137 @@ h4,
 p {
   font-family: 'Bree Serif', serif;
   font-weight: 200;
+}
+/**
+ * Figure with ASCIINEMA
+ */
+/**
+ * Figure with Codepen
+ */
+/** --------------------------------------------------------------
+ * Figure through .figure
+ */
+figure.figure,
+figure.asciinema,
+figure.codepen,
+figure.figure-codepen {
+  display: table;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+  /* Chrome shinks images in td */
+  /* Position the images */
+}
+figure.figure img {
+  max-width: 100%;
+  display: block;
+}
+figure.figure figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  padding-top: 12px;
+}
+figure.figure figcaption p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-style: italic;
+}
+figure.figure td img {
+  max-width: none;
+}
+figure.figure.center {
+  clear: both;
+  margin: auto;
+}
+figure.figure.center figcaption {
+  text-align: center;
+}
+figure.figure.left {
+  float: left;
+  margin-right: 0.5em;
+}
+figure.figure.right {
+  float: right;
+  margin-left: 0.5em;
+}
+@media screen and (max-width: 963px) {
+  figure.figure.left.w67,
+  figure.figure.right.w67 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w67 img,
+  figure.figure.right.w67 img {
+    width: 962.5px;
+  }
+}
+@media screen and (max-width: 733px) {
+  figure.figure.left.w50,
+  figure.figure.right.w50 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w50 img,
+  figure.figure.right.w50 img {
+    width: 733.33333333px;
+  }
+}
+@media screen and (max-width: 688px) {
+  figure.figure.left.w40,
+  figure.figure.right.w40 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w40 img,
+  figure.figure.right.w40 img {
+    width: 687.5px;
+  }
+}
+@media screen and (max-width: 550px) {
+  figure.figure.left.w33,
+  figure.figure.right.w33 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w33 img,
+  figure.figure.right.w33 img {
+    width: 550px;
+  }
+}
+@media screen and (max-width: 367px) {
+  figure.figure.left.w25,
+  figure.figure.right.w25 {
+    margin-left: 0;
+    margin-right: 0;
+    float: none;
+  }
+  figure.figure.left.w25 img,
+  figure.figure.right.w25 img {
+    width: 366.66666667px;
+  }
+}
+figure.asciinema {
+  display: block;
+}
+figure.asciinema figcaption {
+  display: block;
+}
+figure.asciinema .asciicast {
+  margin: 0 !important;
+}
+figure.codepen,
+figure.figure-codepen {
+  width: 100%;
+}
+.figureC img {
+  margin: 0 auto;
+}
+.figureC img figcaption {
+  text-align: center;
 }
 /**
   * My own settings, not currently in their own module.
