@@ -4,26 +4,6 @@ Design
 En kortfattad analys av tre hemsidors design.
 
 
-
-    Skapa en ny rapport i content/rapport/06_designprincip.md.
-
-    Välj ut 3 webbplatser som skall analyseras, berätta hur du gjorde urvalet.
-
-    Berätta om du använde något speciellt bakgrundsmaterial som definierade designprinciper (och designelement). Det blir stöd för din bakomliggande metod för att utföra din studie.
-
-    För varje webbplats, gör följande (skriv kortfattat, 1-2 meningar om varje):
-        Kommentera webbplatsens mål och syfte. Varför finns webbplatsen till?
-        Kommentera webbplatsens design och vad som kännetecknar den rent allmänt.
-        Kommentera om du själv anser att designen gynnar webbplatsens mål och syfte, och/eller vilken känsla som designen ger.
-        Lyft fram den eller de designprinciper du anser kännetecknar webbplatsens design och exemplifiera. Notera gärna vilka designelement som använts.
-        Kika om designprinciperna som används är lika/olika för framsidan och undersidorna och kommentera.
-
-    Sammanfatta ditt resultat i en analys och skriv generellt om din studie, kom du fram till något speciellt rörande hur webbplatser använder designprinciper?
-
-    I slutet av rapporten skriver du ett eget stycke med namnen på dina gruppmedlemmar.
-
-
-
 Urval
 -----------------------
 

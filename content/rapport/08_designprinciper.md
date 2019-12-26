@@ -2,9 +2,6 @@ Designprinciper
 =======================
 
 
-
-
-
 Urval
 -----------------------
 Valde att arbeta med unity, balance, similarity, contrast och movement i huvudsak.  
