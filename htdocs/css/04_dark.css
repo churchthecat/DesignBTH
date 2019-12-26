@@ -5746,13 +5746,6 @@ li a:hover {
 /**
   * Variables  #41FF00 green
   */
-@font-face {
-  font-family: 'Gupter';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Gupter Regular'), local('Gupter-Regular'), url(https://fonts.gstatic.com/s/gupter/v1/2-cm9JNmxJqPO1QkZpy7.ttf) format('truetype');
-}
 h2,
 h3,
 h4,

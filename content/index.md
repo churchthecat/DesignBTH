@@ -1,5 +1,5 @@
 ---
-title: "Min fina titel"
+title: "Anders Designsida"
 views:
     mumin:
         region: sidebar-right
@@ -13,7 +13,7 @@ views:
         region: flash
         template: anax/v2/image/default
         data:
-            src: "image/green.jpg?width=1100&height=150&crop-to-fit"
+            src: "image/lens-flare-png-6902.png?width=600&height=150&crop-to-fit&area=0,0,0,0&q=100"
 
     byline:
         region: main
@@ -37,7 +37,7 @@ Jag skrev min första kod på en C64, inte för att jag begrep att det var det j
 Knackade lite HTML på 90-talet men sen tog annat vid.
 
 Valde att studera webbprogammering eftersom programmering alltid har lockat mig samtidigt
-som jag vill ha ett jobb som kan skötas på distans. Jag har lite egna projekt som behöver hemsidor med så jag har lite att träna på. 
+som jag vill ha ett jobb som kan skötas på distans. Jag har lite egna projekt som behöver hemsidor med så jag har lite att träna på.
 
 Jag är lite smågalen och har gjort rätt mycket olika saker i livet,
 man behöver ha ett gäng näradöden upplevelser för att uppskatta livet :).

@@ -5590,6 +5590,14 @@ hr::after {
 rm-default.rm-mobile.rm-clicked {
   background-color: linear-gradient(to right, #FF2200, #E8BE0E);
 }
+::selection {
+  background: #ffb7b7;
+  /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7;
+  /* Gecko Browsers */
+}
 /* container */
 .wrap-all {
   background-color: #1CFF3E;

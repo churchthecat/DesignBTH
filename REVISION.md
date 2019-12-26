@@ -24,3 +24,7 @@ V3.0.0 (2019-11-24)
 5.0.0 (2019-11-24)
 
 * images , kmom05 done.
+
+6.0.0 (2019-11-24)
+
+* desingelements and principles , kmom06 done.

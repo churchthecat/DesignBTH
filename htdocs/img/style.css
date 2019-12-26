@@ -1,0 +1,158 @@
+h1 {
+    text-align: center;
+}
+
+h3 {
+    color: blue;
+}
+
+.content {
+    border: 1px solid black;
+    background-color: #eee;
+    padding: 2em;
+    margin: 0 auto;
+    height: 500px;
+    width: 800px;
+    border-radius: 30px;
+    overflow: auto;
+    justify-content: space-around;
+}
+
+footer {
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    background-color: #eee;
+    padding: 2em;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer a {
+    align-self: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: #eee;
+    padding: 2em;
+    margin: 0 auto;
+    border-radius: 30px;
+}
+
+/* flags */
+.flag {
+    position: relative;
+    outline: 1px solid black;
+    display: inline-block;
+    z-index: 2;
+}
+
+.sweden {
+    background-color: #006aa7;
+    height: 200px;
+    width: 320px;
+    float: right;
+}
+
+.sweden .part1 {
+    position: absolute;
+    background-color: #fecc00;
+    width: 40px;
+    height: 200px;
+    top: 0;
+    left: 100px;
+}
+
+.sweden .part2 {
+    position: absolute;
+    background-color: #fecc00;
+    width: 320px;
+    height: 40px;
+    top: 80px;
+    left: 0;
+}
+
+.norway {
+    background-color: #ef2b2d;
+    height: 160px;
+    width: 220px;
+}
+
+.norway .part3 {
+    position: absolute;
+    background-color: #002868;
+    width: 20px;
+    height: 160px;
+    top: 0;
+    left: 70px;
+}
+
+.norway .part4 {
+    position: absolute;
+    background-color: #002868;
+    width: 220px;
+    height: 20px;
+    top: 70px;
+    left: 0;
+}
+
+.norway .part1 {
+    position: absolute;
+    background-color: #fff;
+    width: 40px;
+    height: 160px;
+    top: 0;
+    left: 60px;
+}
+
+.norway .part2 {
+    position: absolute;
+    background-color: #fff;
+    width: 220px;
+    height: 40px;
+    top: 60px;
+    left: 0;
+}
+
+.ireland {
+    background-color: #009e60;
+    height: 100px;
+    width: 150px;
+}
+
+.ireland .part1 {
+    position: absolute;
+    background-color: #fff;
+    width: 50px;
+    height: 100px;
+    top: 0;
+    left: 50px;
+}
+
+.ireland .part2 {
+    position: absolute;
+    background-color: #f77f00;
+    width: 50px;
+    height: 100px;
+    top: 0;
+    left: 100px;
+}
+
+.japan {
+    background-color: #fff;
+    height: 200px;
+    width: 300px;
+    float: none;
+}
+
+.japan .part1 {
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    top: 40px;
+    left: 90px;
+    background-color: #bd0029;
+    border-radius: 50%;
+    display: inline-block;
+}
