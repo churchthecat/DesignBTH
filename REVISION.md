@@ -28,3 +28,7 @@ V3.0.0 (2019-11-24)
 6.0.0 (2019-11-24)
 
 * desingelements and principles , kmom06 done.
+
+V10.0.0
+
+ kmom10 done.
