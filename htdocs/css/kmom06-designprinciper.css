@@ -5123,7 +5123,7 @@ a.rm-button.rm-clicked .rm-button-face-2 {
  * Base style to affect HTML elements on a general scale.
  */
 a {
-  color: #414372;
+  color: darkblue;
 }
 a:hover {
   color: black;
@@ -5578,10 +5578,10 @@ hr::after {
 /* Hide submenu, leave this to kmom02 */
 /* Hide responsive/mobile menu, leave this to kmom02 */
 .rm-navbar-max {
-  background-color: rgba(149, 182, 255, 0.5);
+  background-color: rgba(149, 182, 255, 0.7);
 }
 #rm-menu {
-  background-color: rgba(149, 182, 255, 0.5);
+  background-color: rgba(149, 182, 255, 0.7);
 }
 #rm-menu a {
   color: white;
@@ -5593,7 +5593,7 @@ i.fas:nth-child(2) {
   display: none;
 }
 rm-default.rm-mobile.rm-clicked {
-  background-color: rgba(149, 182, 255, 0.5);
+  background-color: rgba(149, 182, 255, 0.7);
 }
 ::selection {
   background: #ffb7b7;
@@ -5658,7 +5658,7 @@ rm-default.rm-mobile.rm-clicked {
 }
 /* sidebars */
 .wrap-sidebar {
-  background-color: rgba(149, 182, 255, 0.5);
+  background-color: rgba(149, 182, 255, 0.7);
   outline: 3px black;
   outline-style: inset;
 }
@@ -5696,7 +5696,7 @@ rm-default.rm-mobile.rm-clicked {
   margin-left: 0.52083333%;
   margin-right: 0.52083333%;
   margin-left: 8.85416667%;
-  background-color: rgba(149, 182, 255, 0.5);
+  background-color: rgba(149, 182, 255, 0.7);
   outline: 3px black;
   outline-style: inset;
 }
@@ -5847,10 +5847,10 @@ rm-default.rm-mobile.rm-clicked {
   color: #ffffff;
 }
 .my-navbar li:hover {
-  background-color: rgba(149, 182, 255, 0.5);
+  background-color: rgba(149, 182, 255, 0.7);
 }
 .my-navbar .active {
-  background-color: rgba(149, 182, 255, 0.5);
+  background-color: rgba(149, 182, 255, 0.7);
 }
 ul {
   list-style-type: none;
@@ -5861,13 +5861,13 @@ li a {
 }
 /* Change the link color  on hover */
 li a:hover {
-  background-color: rgba(149, 182, 255, 0.5);
+  background-color: rgba(149, 182, 255, 0.7);
 }
 /* //footer */
 .outer-wrap-footer {
   background-color: linear-gradient(to right, #FF2200, #E8BE0E);
   color: #000BD3;
-  background-color: rgba(149, 182, 255, 0.5);
+  background-color: rgba(149, 182, 255, 0.7);
   outline: 3px black;
   outline-style: inset;
   max-width: 60%;

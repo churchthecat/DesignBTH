@@ -15,13 +15,13 @@ https://www.ibias.es
 
 https://www.skatteverket.se/
 
-Urvalet var helt subjektivt, nån jag googlade fram på "cool design" två som jag råkade ha uppe för tillfället i flikarna.
-Tänkte det kunde vara intressant med att välja en som hade en avancerad och uppenbart genomtänkt design och två som inte direkt är avancerade men som ändå såklart har designelement i sig.
+Urvalet gjordes helt slumpmässigt. Jag började med att googla ”cool design” och hittade en jag tyckte var spännande, de två andra hade jag av olika anledningar redan uppe bland flikarna och tyckte de passade bra. Jag ville ha med en webbsida som var intressant utifrån aspekterna avancerad och uppenbart genomtänkt design. De två andra kontrasterar genom att deras design är funktionell men knappast avancerad även om de har designelement i sig. Värt att notera är att de två mindre avancerade webbsidorna är myndighetssidor varpå det också kan vara en anledning till att de är mindre avancerade utan snarare fokuserat på tillgängliga.
 
 Metod och definitioner:
 -------------------------
-Jag har använt mig av definitionerna på [https://www.canva.com/learn/design-elements-principles/](Canva) för analysen i huvudsak.
-Metoden blir en komparativ analys av tre hemsidor då det handlar om jämförande snarare än en djupare kvalitativ studie av hemsidornas innehåll. En kort sammanfattning av definitionerna i denna bild ![canva](https://learn.canva.com/wp-content/uploads/2015/07/20DP_Infographic.jpg "canvadefinitions")
+Som stöd för analysen har jag utgått från definitionerna som används på https://www.canva.com/learn/design-elements-principles/. Metoden blir komparativ och jämförande snarare en kvalitativ studie av hemsidornas innehåll. Det är själva designen som är i fokus snarare än innehållet. Jag har valt att lägga upp bilden för att förenkla för användaren att förstå själva principerna i designanalysen.
+
+![canva](https://learn.canva.com/wp-content/uploads/2015/07/20DP_Infographic.jpg "canvadefinitions")
 
 
 
@@ -31,22 +31,19 @@ Metoden blir en komparativ analys av tre hemsidor då det handlar om jämförand
 
 ![Exo-skills](../htdocs/img/exoskillls.png "Exo-skills")
 
-Jag börjar med den sida som sticker ut mest, här har man verkligen tänkt till och jobbat med designen.
-Min franska är rätt obefintlig men av vad jag kan läsa mig till så gör företaget konsulttjänster inom affärsmetoder, digitala analyser, UX-design med mera.
+Jag inleder men den sidan jag anser sticker ut mest. Här har designen legat i fokus och troligen ligger det en hel del arbete bakom designelementen. Min franska är i stort sätt obefintlig men enligt vad jag listat ut arbetar företag med konsulttjänster inom affärsmetoder, digitala analyser och UX-design med mera. Med tanke på affärsområde så är det förståeligt att de valt att lägga mycket arbete på just designen.
 
-Det första man möts av är färgerna som kontrasterar varandra , översta delen blå med vit text och nedre delen vit med blå färg till rubriker.
-Här har de använt linjer, inte enbart raka i färgbyten och under rubriker, utan även något som kan liknas vid en ljudsampling. Samtidigt som linjerna drar ögat mot mitten av bilden där deras slogan är, så upplevs bilden symmetrisk även om den är osymetrisk. De har även använt uppskalade siffror som designelement.
+Det första man möts av är färger som kontrasterar varandra. Den översta delen är blå med vit tex och nedre delen vit med blå färg till rubriker. Här har designern valt att använda linjer, inte enbart raka i färgbyten och under själva rubrikerna. Det kan liknas grafiskt vid en ljudsampling.
 
-När det kommer till färger så har de lyckats använd en stor färgpallett från mörkblått och lila till turkost och rosa men ändå på ett sätt som inte gör att färgarna "tar över" i designen. Överallt har de använt geometriska former,figurer och uppskalade siffror, passande till sidans syfte.
+Linjerna lockar även ögat mot mitten av bilden där företaget slogan finns, bilden upplevs symmetriskt trots att den är osymmetrisk. Här har designern även använt uppskalade siffror som designelement.
 
-Sidan känns "lätt" med väl använda whitespaces och information i form av clipart och ikoner, även deras case studies presenteras inom ramen för sidans design.
+När det kommer till färgval så har designern lyckats använda en stor färgpalett, från mörkblått till turkost och rosa men lyckats balanserade färgerna så de inte tar över själva designen. Genomgående är att designern använt geometriska former, figurer och uppskalade siffror som passar till sidans syfte.
 
-De geometriska, våg och stapel figurerna ger en känsla av rörelse, även detaljer i exempelvis deras kontaktformulär har rörelser i sig.
+Hemsidan upplevs ”lätt” med väl använda whitespaces och information i form av clipart och ikoner. Här presenteras även företagets ”case studies” inom ramen för hemsidans design.
 
-När bilder använts har de varit "inbakade" i geometriska former och använts sparsamt. Pilsymboler leder användaren igenom hela sidan.
+När det kommer de geometriska figurerna så ger de en känsla av rörelser, det gäller även detaljer i exempelvis deras kontaktformulär som även den har rörelser i sig. När bilder har använts har dessa varit inbakade i geometriska former och har använts sparsamt. Pilsymbolen leder användaren genom hela sidan vilket är en intressant detalj som visar på en att designern lagt tanke på användaren.
 
-Sidan har faktiskt inslag av samtliga designprinciper såsom Unity, Harmony , Balance, Hierarchy, Scale, Dominance, Similarity and Contrast.
-Det har onekligen säkert varit en bra budget enbart till designdelen.    
+Slutkommentar: Det går att finna inslag av samtliga designprinciper som tas upp. DDet jag indentifierat är Unity, Harmony , Balance, Hierarchy, Scale, Dominance, Similarity and Contrast. Jag drar också slutsatsen att designern haft fått tid och budget till att arbeta fram en genomtänkt och avancerad design som bevis på företagets kompetens inom området.    
 
 
 
@@ -57,18 +54,16 @@ Det har onekligen säkert varit en bra budget enbart till designdelen.
 
 ![Skatteverket](../htdocs/img/skatteverket.png "Skatteverket")
 
-Skatteverket har en sida som av uppenbara skäl är mycket stor och fokuserad på information och administration av ärenden,
- användare kan logga in och göra skatteärenden såväl som söka information.
+Skatteverket har en sida som av uppenbara skäl är mycket stor och fokuserad på information och administration av ärenden, användare kan logga in och göra skatteärenden såväl som söka information.
 
- Färgerna använda är samma som i logotypen, blått och gult samt svart text och grå skuggningar.
- Linjer är det första designelementet man tänker på när man ser sidan. Samtliga element på sidan är avgränsade i ett gridsystem.
- Med hjälp av linjer både vertikalt och horisontella samt boxar så avgränsas de olika områden som sidan innefattar.
+Skatteverket har till skillnad från första hemsidan inte som målsättning att sälja designtjänster utan ska tillhandahålla information till medborgare och övriga besökare. Dessutom har myndigheter vissa lagar och regler som styr framför allt webbplatserna ur ett tillgänglighetsperspektiv och därför kan inte heller designers använda hela sin kreativa sida.
 
- Ett par sparsamma effekter för rörelse finns även som skuggning, pilsymboler samt linjer under länkarna och knapparna när man för muspekaren över dem.
+Färgerna som används är samma som Skatteverkets färger i logotypen. Blått, gult och svart tex med grå skuggningar. Det första designelementet jag noterade var linjerna och samtliga element på sidan är avgränsade i ett gridsystem. De olika områdena på hemsidan avgränsas med linjer, vertikalt och horisontellt samt med boxar.
 
- Designen uppfyller det antagna målet att vara informativt och målinriktat, resultat och effektivitet är nog nyckelorden.
+Det finns sparsamma effekter för rörelser som designern använt för att göra hemsidan mer lättnavigerad. Det rör sig om mouseover där det förekommer skuggning, pilsymboler och linjer när man för musen över länkar och knappar.
+Designen uppfyller målet med att underlätta målet med sidan som är informativ och målinriktad. För designern har troligen resultat och effektivitet varit själva grundprincipen.
 
- Utöver detta är designen inget som vinner tävlingar men fungerar utmärkt till sitt syfte. Designprincipen torde vara Unity/harmony samt Hierarchy.
+Slutkommentar: Själva designen på Skatteverkets hemsida är inte särskilt unik eller inspirerande men fungerar för sitt syfte. Jag har dragit slutsatsen att designprincipen är Unity/Harmony samt Hierarchy.
 
 
 
@@ -78,30 +73,26 @@ Skatteverket har en sida som av uppenbara skäl är mycket stor och fokuserad p�
 
 ![Ayuntamiento de Ibias](../htdocs/img/ibias.png "Ayuntamiento de Ibias")
 
-Min nuvarande muncipio / hemkommun, sidan är för innevånare och besökare till regionen.
-Här är mycket fokus på turism, det är den huvudsakliga näringsverksamheten för en region som förlorat nästan alla jobb inom gruvor,industri och dess underentreprenörers tjänster.  
+San Antolín de Ibias är min municipio vilket motsvarar hemkommun i Sverige. Hemsidan är en myndighetssida som riktar sig till kommuninnevånare och besökare.
 
-Första sidan har ett bildspel med bilder representativt för regionen med fokus på turismen.
-Färgschemat går i blått, grönt och vitt. Passande för fokus på naturturismen.
+Första sidan har ett bildspel med bilder som är representativa för regionen och fokuserar på turismnäringen. Målet är delvis att genom bilder locka turister till området. Färgschemat går i blått, grönt och vitt vilket är naturliga färger och passar in på fokuset på naturturism.
 
-kul detaljer på sidan är exempelvis 360 graders virtuel tur över omgivningarna och videos från regionen.
-Designelement som används är i första hand linjer , mycket raka linjer som struktur för sidan.
-Linjerna uppnås både med de naturliga avskiljanden mellan bilder och i färgschemat.
+Det förekommer lite intressant detaljer på hemsidan så som 360 graders virtuell tur över omgivningarna och man har även videos från området. Designelement som har använts är i första hand linjer, mycket raka linjer som struktur för hemsida. Linjerna uppnås med de naturliga avskiljandena, mellan bilder och i färgschemat.
 
-Andra designelement såsom composition och grids används med i form av boxar och whitespaces.
+Det förekommer även andra designelement såsom composition och grids som används i form av boxar och whitespaces.
 
-Designprincipen torde vara Unity/harmony samt Hierarchy.
+Slutkommentar: Kommunen är speciell då området har de senaste 10 åren förlorat många arbetstillfällen inom gruvor och industri samt deras underentreprenörer. Nu har fokus lagts på turism vilket är den huvudsakliga näringsverksamheten men som inte har gett den ekonomiska boom som väntats.
+Hemsidan är inte avancerad så som första hemsidan utan kan snarare jämföras med Skatteverket även om det ligger mer fokus på marknadsföring av området som turistdestination. Målet är, förutom att ge service till kommuninnevånare att locka besökare vilket designern balanserat genom tydliga boxar som gör det enkelt för kommuninnevånare att hitta rätt och lockande bilder för besökare. När det kommer till designprinicpen har jag identifierat Unity/Harmony samt Hierarchy.
 
 
 Sammanfattning
 -------------------
 
-När det kommer till Skatteverket och Ayuntamiento de Ibias så är det rätt klart att målen har varit att sidorna är lättnavigerade och att man ska kunna hitta rätt bland all information, de uppfyller troligen sina egna mål.
-Struktur, raka linjer och enkelt färgschema kännetacknar dessa sidor.
+När det kommer till Skatteverket och Ayuntamiento de Ibias så är det rätt klart att målen är varit att sidorna ska vara lättnavigerade och att man ska kunna hitta rätt bland all information, de uppfyller troligen sina egna mål. Struktur, raka linjer och enkelt färgschema kännetacknar dessa sidor.
 
-Exo-skills är en annan femma, man kan ju se deras hemsida som ett skyltfönster för potentiella kunder. Här har man lagt stort arbete på designen och använt delar av samtliga principer på ett rätt coolt sätt.   
+Exo-skills är helt annorlunda och har valt fokus på riktigt häftig design. Där kan hemsidan ses som ett skyltfönster för potentiella kunder som letar efter innovativa lösningar. Här har man lagt stort arbete på designen och använt delar av samtliga principer på ett sätt som sticker ut.
 
-Design kan sammantaget både vara ett mål i sig och ett medel för att nå uppsatta mål. Det är ju inte konstigt att designdelen är viktigare för ett säljande företag än för kommuner och myndigheter. Målen i sig skiljer sig åt men de uppfyller som sagt sina egna mål troligen.  
+Design kan sammantaget både vara ett mål i sig och ett medel för att nå uppsatta mål. Det är inte konstigt att designdelen i sig är viktigare för ett säljande företag än för kommuner och myndigheter. Målen i sig skiljer sig åt och så även vissa krav men de uppfyller hemsidorna uppfyller troligen sina må
 
 
 Referenser
